@@ -19,11 +19,11 @@ The focus was on understanding password strength, brute-force attacks, and defen
 - Develop recommendations for password and network hardening.
 
 ## 🔐 What I Did
-1. Created test users and password hashes in a sandbox system.  
-2. Used `John the Ripper` and `Hashcat` to attempt recovery of weak passwords.  
-3. Captured and analyzed packets in Wireshark.  
-4. Practiced ethical Wi-Fi testing with `aircrack-ng` using my own network.  
-5. Documented all methods and mitigation recommendations.
+1. Created synthetic test accounts and generated password hashes locally for experimentation.
+2. Used Kali toolchain to study how different hash algorithms and password strengths affect recoverability.
+3. Compared outcomes across hash types and documented observations (time to recover, success rates)
+4. Wrote remediation guidance emphasizing bcrypt/argon2, MFA, and rate limiting.
+5. All activities were conducted on local sandbox resources that I created and controlled.
 
 ## ✅ Outcomes
 - Demonstrated how strong password policies prevent brute-force attacks.  
